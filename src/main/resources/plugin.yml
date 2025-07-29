@@ -1,0 +1,11 @@
+name: CommandTest
+version: '1.0-SNAPSHOT'
+main: org.foxie.commandTest.CommandTest
+api-version: '1.21'
+commands:
+  apple:
+    description: 'A command that gives you an apple'
+    usage: '/apple'
+    aliases: [giveapple]
+    permission: commandtest.apple
+    permission-message: 'You are not allowed to be blessed with an apple'
